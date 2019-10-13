@@ -1,0 +1,22 @@
+﻿<UserControl x:Class="Proyecto2doParcial.Camiseta"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Proyecto2doParcial"
+             mc:Ignorable="d" Width="903.064" Height="369.6">
+    <Grid>
+        <TextBlock x:Name="lblCodigoCamiseta" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Codigo del producto" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="txtCodigoCamiseta" HorizontalAlignment="Left" Height="27" Margin="250,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="241" FontSize="20"/>
+        <TextBlock x:Name="lblDescripcionCamiseta" HorizontalAlignment="Left" Margin="10,69,0,0" TextWrapping="Wrap" Text="Descripcion del Producto" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="txtDescripcionCamiseta" HorizontalAlignment="Left" Height="27" Margin="250,68,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="241" FontSize="20"/>
+        <TextBlock x:Name="lblPrecioCamiseta" HorizontalAlignment="Left" Margin="10,132,0,0" TextWrapping="Wrap" Text="Precio" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="txtPrecioCamiseta" HorizontalAlignment="Left" Height="27" Margin="250,132,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="241" FontSize="20"/>
+        <TextBlock x:Name="lblDescuentoCamiseta" HorizontalAlignment="Left" Margin="10,191,0,0" TextWrapping="Wrap" Text="Descuento" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="txtDescuentoCamiseta" HorizontalAlignment="Left" Height="27" Margin="250,191,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="241" FontSize="20"/>
+        <TextBlock x:Name="lblProveedorCamiseta" HorizontalAlignment="Left" Margin="10,246,0,0" TextWrapping="Wrap" Text="Proveedor" VerticalAlignment="Top" FontSize="20"/>
+        <TextBox x:Name="txtProveedorCamiseta" HorizontalAlignment="Left" Height="27" Margin="250,246,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="241" FontSize="20"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,306,0,0" TextWrapping="Wrap" Text="Tipo:" VerticalAlignment="Top" FontSize="20"/>
+
+    </Grid>
+</UserControl>
