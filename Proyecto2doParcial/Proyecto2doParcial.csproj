@@ -55,7 +55,27 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Falda.xaml.cs">
+      <DependentUpon>Falda.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Gorras.xaml.cs">
+      <DependentUpon>Gorras.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="RopaInterior.xaml.cs">
+      <DependentUpon>RopaInterior.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Zapatos.xaml.cs">
+      <DependentUpon>Zapatos.xaml</DependentUpon>
+    </Compile>
     <Page Include="Camiseta.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Falda.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Gorras.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -74,8 +94,23 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Pantalon.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RopaInterior.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Zapatos.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Pantalon.xaml.cs">
+      <DependentUpon>Pantalon.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>

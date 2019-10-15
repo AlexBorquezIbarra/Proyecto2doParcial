@@ -5,18 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Proyecto2doParcial"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="559.61" Width="973.6">
     <Grid>
         <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Tipo de producto" VerticalAlignment="Top" Height="34" Width="171" FontSize="20"/>
-        <ComboBox x:Name="cbLista" HorizontalAlignment="Left" Margin="186,10,0,0" VerticalAlignment="Top" Width="259" FontSize="20">
+        <ComboBox x:Name="cbLista" HorizontalAlignment="Left" Margin="186,10,0,0" VerticalAlignment="Top" Width="259" FontSize="20" SelectionChanged="CbLista_SelectionChanged">
             <ComboBoxItem>Camiseta</ComboBoxItem>
             <ComboBoxItem>Pantalon</ComboBoxItem>
             <ComboBoxItem>Falda</ComboBoxItem>
+            <ComboBoxItem>Zapatos</ComboBoxItem>
+            <ComboBoxItem>Ropa Interior</ComboBoxItem>
+            <ComboBoxItem>Gorras</ComboBoxItem>
         </ComboBox>
-        <Button x:Name="btnAgregar" Content="Agregar" HorizontalAlignment="Left" Margin="487,10,0,0" VerticalAlignment="Top" Width="126" FontSize="20" Height="34"/>
-        <Grid x:Name="GrdInterfaz" HorizontalAlignment="Left" Height="323" Margin="10,49,0,0" VerticalAlignment="Top" Width="774"/>
-        <Button x:Name="btnGuardar" Content="Guardar" HorizontalAlignment="Left" Margin="487,377,0,0" VerticalAlignment="Top" Width="126" FontSize="20" Height="34"/>
-        <Button x:Name="btnCancelar" Content="Cancelar" HorizontalAlignment="Left" Margin="658,377,0,0" VerticalAlignment="Top" Width="126" FontSize="20" Height="34"/>
+        <Button x:Name="btnAgregar" Content="Agregar" HorizontalAlignment="Left" Margin="487,10,0,0" VerticalAlignment="Top" Width="126" FontSize="20" Height="34" Click="BtnAgregar_Click"/>
+        <Grid x:Name="GrdInterfaz" HorizontalAlignment="Left" Height="408" Margin="10,49,0,0" VerticalAlignment="Top" Width="947"/>
+        <Button x:Name="btnGuardar" Visibility="Hidden" Content="Guardar" HorizontalAlignment="Left" Margin="487,479,0,0" VerticalAlignment="Top" Width="126" FontSize="20" Height="34" Click="BtnGuardar_Click"/>
+        <Button x:Name="btnCancelar" Visibility="Hidden" Content="Cancelar" HorizontalAlignment="Left" Margin="658,479,0,0" VerticalAlignment="Top" Width="126" FontSize="20" Height="34" Click="BtnCancelar_Click"/>
+        <TextBlock x:Name="lblForzado" Visibility="Hidden" HorizontalAlignment="Left" Margin="10,485,0,0" TextWrapping="Wrap" Text="Es Necesario llenar el formulario" VerticalAlignment="Top" FontSize="20" Width="293"/>
 
     </Grid>
 </Window>

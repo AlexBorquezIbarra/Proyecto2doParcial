@@ -4,8 +4,8 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:Proyecto2doParcial"
-             mc:Ignorable="d" Width="903.064" Height="369.6">
-    <Grid>
+             mc:Ignorable="d" Width="903.064" Height="384.3">
+    <Grid Height="384" Margin="0,0,0.2,0" VerticalAlignment="Top">
         <TextBlock x:Name="lblCodigoCamiseta" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Codigo del producto" VerticalAlignment="Top" FontSize="20"/>
         <TextBox x:Name="txtCodigoCamiseta" HorizontalAlignment="Left" Height="27" Margin="250,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="241" FontSize="20"/>
         <TextBlock x:Name="lblDescripcionCamiseta" HorizontalAlignment="Left" Margin="10,69,0,0" TextWrapping="Wrap" Text="Descripcion del Producto" VerticalAlignment="Top" FontSize="20"/>
@@ -16,7 +16,25 @@
         <TextBox x:Name="txtDescuentoCamiseta" HorizontalAlignment="Left" Height="27" Margin="250,191,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="241" FontSize="20"/>
         <TextBlock x:Name="lblProveedorCamiseta" HorizontalAlignment="Left" Margin="10,246,0,0" TextWrapping="Wrap" Text="Proveedor" VerticalAlignment="Top" FontSize="20"/>
         <TextBox x:Name="txtProveedorCamiseta" HorizontalAlignment="Left" Height="27" Margin="250,246,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="241" FontSize="20"/>
-        <TextBlock HorizontalAlignment="Left" Margin="10,306,0,0" TextWrapping="Wrap" Text="Tipo:" VerticalAlignment="Top" FontSize="20"/>
+        <TextBlock x:Name="lblTipoCamiseta" HorizontalAlignment="Left" Margin="10,303,0,0" TextWrapping="Wrap" Text="Tipo:" VerticalAlignment="Top" FontSize="20"/>
+        <RadioButton x:Name="rbFormalCamiseta" Content="Formal" HorizontalAlignment="Left" Margin="250,300,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <RadioButton x:Name="rbInformalCamiseta" Content="Informal" HorizontalAlignment="Left" Margin="355,306,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <ComboBox x:Name="cbMarcaCamiseta" HorizontalAlignment="Left" Margin="619,10,0,0" VerticalAlignment="Top" Width="274" FontSize="20">
+            <ComboBoxItem>Oxxo</ComboBoxItem>
+            <ComboBoxItem>Walmart</ComboBoxItem>
+            <ComboBoxItem>Milos</ComboBoxItem>
+            <ComboBoxItem>LiverPool</ComboBoxItem>
+        </ComboBox>
+        <CheckBox x:Name="ckbCueroCamiseta" Content="Cuero" HorizontalAlignment="Left" Margin="250,348,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <TextBlock x:Name="lblEstiloCamiseta" HorizontalAlignment="Left" Margin="10,347,0,0" TextWrapping="Wrap" Text="Estilo:" VerticalAlignment="Top" FontSize="20"/>
+        <CheckBox x:Name="ckbTelaCamiseta" Content="Cuero" HorizontalAlignment="Left" Margin="355,347,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <TextBlock x:Name="lblMarcaCamiseta" HorizontalAlignment="Left" Margin="536,10,0,0" TextWrapping="Wrap" Text="Marca:" VerticalAlignment="Top" FontSize="20"/>
+        <ComboBox x:Name="cbTallaCamiseta" HorizontalAlignment="Left" Margin="619,68,0,0" VerticalAlignment="Top" Width="274" Height="27" FontSize="20">
+            <ComboBoxItem>Chica</ComboBoxItem>
+            <ComboBoxItem>Mediana</ComboBoxItem>
+            <ComboBoxItem>Grande</ComboBoxItem>
+        </ComboBox>
+        <TextBlock x:Name="lblTallasCamiseta" HorizontalAlignment="Left" Margin="536,68,0,0" TextWrapping="Wrap" Text="Tallas:" VerticalAlignment="Top" Height="27" Width="59" FontSize="20"/>
 
     </Grid>
 </UserControl>
